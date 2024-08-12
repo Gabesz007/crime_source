@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body {   
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header{
+    justify-content: center;
+    padding: 3px 20px;
+    height: 100px;
+    width: 300px;
+
+}
