@@ -1,17 +1,20 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
 
 body {   
     font-family: 'Times New Roman', Times, serif;
+    margin: 0;
 }
 
-.header{
-    justify-content: center;
-    padding: 3px 20px;
-    height: 100px;
-    width: 300px;
+
+.header {
+    background: linear-gradient(to bottom right, rgb(4, 4, 105), white, rgb(200, 8, 8), white,rgb(4, 4, 105));
+    /* background: radial-gradient( rgb(4, 4, 105) 20%, white, rgb(200, 8, 8), white,rgb(4, 4, 105)); */
+}   
+
+
+h1 {
+    color:antiquewhite;
+    text-shadow: 22px 2px 3px rgba(0,0,0,0.7);
+    /* color: white;  */
+    -webkit-text-stroke: 1px rgba(174, 144, 64, 0.57); /* A körvonal vastagsága és színe */
 
 }
